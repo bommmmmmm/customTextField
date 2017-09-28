@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68EB1081F7C85B20033BF32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EB1071F7C85B20033BF32 /* main.m */; };
+		C68EB10B1F7C85B20033BF32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EB10A1F7C85B20033BF32 /* AppDelegate.m */; };
+		C68EB10E1F7C85B20033BF32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EB10D1F7C85B20033BF32 /* ViewController.m */; };
+		C68EB1111F7C85B20033BF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68EB10F1F7C85B20033BF32 /* Main.storyboard */; };
+		C68EB1131F7C85B20033BF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68EB1121F7C85B20033BF32 /* Assets.xcassets */; };
+		C68EB1161F7C85B20033BF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68EB1141F7C85B20033BF32 /* LaunchScreen.storyboard */; };
+		C68EB1211F7C85B20033BF32 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EB1201F7C85B20033BF32 /* ________Tests.m */; };
+		C68EB12C1F7C85B20033BF32 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EB12B1F7C85B20033BF32 /* ________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C68EB11D1F7C85B20033BF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C68EB0FB1F7C85B20033BF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68EB1021F7C85B20033BF32;
+			remoteInfo = "防支付宝输入金额";
+		};
+		C68EB1281F7C85B20033BF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C68EB0FB1F7C85B20033BF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68EB1021F7C85B20033BF32;
+			remoteInfo = "防支付宝输入金额";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C68EB1031F7C85B20033BF32 /* 防支付宝输入金额.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "防支付宝输入金额.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68EB1071F7C85B20033BF32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C68EB1091F7C85B20033BF32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C68EB10A1F7C85B20033BF32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C68EB10C1F7C85B20033BF32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C68EB10D1F7C85B20033BF32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C68EB1101F7C85B20033BF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68EB1121F7C85B20033BF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68EB1151F7C85B20033BF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C68EB1171F7C85B20033BF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68EB11C1F7C85B20033BF32 /* 防支付宝输入金额Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "防支付宝输入金额Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68EB1201F7C85B20033BF32 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		C68EB1221F7C85B20033BF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68EB1271F7C85B20033BF32 /* 防支付宝输入金额UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "防支付宝输入金额UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68EB12B1F7C85B20033BF32 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		C68EB12D1F7C85B20033BF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68EB1001F7C85B20033BF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68EB1191F7C85B20033BF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68EB1241F7C85B20033BF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C68EB0FA1F7C85B20033BF32 = {
+			isa = PBXGroup;
+			children = (
+				C68EB1051F7C85B20033BF32 /* 防支付宝输入金额 */,
+				C68EB11F1F7C85B20033BF32 /* 防支付宝输入金额Tests */,
+				C68EB12A1F7C85B20033BF32 /* 防支付宝输入金额UITests */,
+				C68EB1041F7C85B20033BF32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C68EB1041F7C85B20033BF32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68EB1031F7C85B20033BF32 /* 防支付宝输入金额.app */,
+				C68EB11C1F7C85B20033BF32 /* 防支付宝输入金额Tests.xctest */,
+				C68EB1271F7C85B20033BF32 /* 防支付宝输入金额UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68EB1051F7C85B20033BF32 /* 防支付宝输入金额 */ = {
+			isa = PBXGroup;
+			children = (
+				C68EB1091F7C85B20033BF32 /* AppDelegate.h */,
+				C68EB10A1F7C85B20033BF32 /* AppDelegate.m */,
+				C68EB10C1F7C85B20033BF32 /* ViewController.h */,
+				C68EB10D1F7C85B20033BF32 /* ViewController.m */,
+				C68EB10F1F7C85B20033BF32 /* Main.storyboard */,
+				C68EB1121F7C85B20033BF32 /* Assets.xcassets */,
+				C68EB1141F7C85B20033BF32 /* LaunchScreen.storyboard */,
+				C68EB1171F7C85B20033BF32 /* Info.plist */,
+				C68EB1061F7C85B20033BF32 /* Supporting Files */,
+			);
+			path = "防支付宝输入金额";
+			sourceTree = "<group>";
+		};
+		C68EB1061F7C85B20033BF32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68EB1071F7C85B20033BF32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C68EB11F1F7C85B20033BF32 /* 防支付宝输入金额Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C68EB1201F7C85B20033BF32 /* ________Tests.m */,
+				C68EB1221F7C85B20033BF32 /* Info.plist */,
+			);
+			path = "防支付宝输入金额Tests";
+			sourceTree = "<group>";
+		};
+		C68EB12A1F7C85B20033BF32 /* 防支付宝输入金额UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C68EB12B1F7C85B20033BF32 /* ________UITests.m */,
+				C68EB12D1F7C85B20033BF32 /* Info.plist */,
+			);
+			path = "防支付宝输入金额UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68EB1021F7C85B20033BF32 /* 防支付宝输入金额 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68EB1301F7C85B20033BF32 /* Build configuration list for PBXNativeTarget "防支付宝输入金额" */;
+			buildPhases = (
+				C68EB0FF1F7C85B20033BF32 /* Sources */,
+				C68EB1001F7C85B20033BF32 /* Frameworks */,
+				C68EB1011F7C85B20033BF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "防支付宝输入金额";
+			productName = "防支付宝输入金额";
+			productReference = C68EB1031F7C85B20033BF32 /* 防支付宝输入金额.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C68EB11B1F7C85B20033BF32 /* 防支付宝输入金额Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68EB1331F7C85B20033BF32 /* Build configuration list for PBXNativeTarget "防支付宝输入金额Tests" */;
+			buildPhases = (
+				C68EB1181F7C85B20033BF32 /* Sources */,
+				C68EB1191F7C85B20033BF32 /* Frameworks */,
+				C68EB11A1F7C85B20033BF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68EB11E1F7C85B20033BF32 /* PBXTargetDependency */,
+			);
+			name = "防支付宝输入金额Tests";
+			productName = "防支付宝输入金额Tests";
+			productReference = C68EB11C1F7C85B20033BF32 /* 防支付宝输入金额Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C68EB1261F7C85B20033BF32 /* 防支付宝输入金额UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68EB1361F7C85B20033BF32 /* Build configuration list for PBXNativeTarget "防支付宝输入金额UITests" */;
+			buildPhases = (
+				C68EB1231F7C85B20033BF32 /* Sources */,
+				C68EB1241F7C85B20033BF32 /* Frameworks */,
+				C68EB1251F7C85B20033BF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68EB1291F7C85B20033BF32 /* PBXTargetDependency */,
+			);
+			name = "防支付宝输入金额UITests";
+			productName = "防支付宝输入金额UITests";
+			productReference = C68EB1271F7C85B20033BF32 /* 防支付宝输入金额UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68EB0FB1F7C85B20033BF32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘平";
+				TargetAttributes = {
+					C68EB1021F7C85B20033BF32 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C68EB11B1F7C85B20033BF32 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C68EB1021F7C85B20033BF32;
+					};
+					C68EB1261F7C85B20033BF32 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C68EB1021F7C85B20033BF32;
+					};
+				};
+			};
+			buildConfigurationList = C68EB0FE1F7C85B20033BF32 /* Build configuration list for PBXProject "防支付宝输入金额" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C68EB0FA1F7C85B20033BF32;
+			productRefGroup = C68EB1041F7C85B20033BF32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68EB1021F7C85B20033BF32 /* 防支付宝输入金额 */,
+				C68EB11B1F7C85B20033BF32 /* 防支付宝输入金额Tests */,
+				C68EB1261F7C85B20033BF32 /* 防支付宝输入金额UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68EB1011F7C85B20033BF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68EB1161F7C85B20033BF32 /* LaunchScreen.storyboard in Resources */,
+				C68EB1131F7C85B20033BF32 /* Assets.xcassets in Resources */,
+				C68EB1111F7C85B20033BF32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68EB11A1F7C85B20033BF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68EB1251F7C85B20033BF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68EB0FF1F7C85B20033BF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68EB10E1F7C85B20033BF32 /* ViewController.m in Sources */,
+				C68EB10B1F7C85B20033BF32 /* AppDelegate.m in Sources */,
+				C68EB1081F7C85B20033BF32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68EB1181F7C85B20033BF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68EB1211F7C85B20033BF32 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68EB1231F7C85B20033BF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68EB12C1F7C85B20033BF32 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C68EB11E1F7C85B20033BF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C68EB1021F7C85B20033BF32 /* 防支付宝输入金额 */;
+			targetProxy = C68EB11D1F7C85B20033BF32 /* PBXContainerItemProxy */;
+		};
+		C68EB1291F7C85B20033BF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C68EB1021F7C85B20033BF32 /* 防支付宝输入金额 */;
+			targetProxy = C68EB1281F7C85B20033BF32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C68EB10F1F7C85B20033BF32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68EB1101F7C85B20033BF32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C68EB1141F7C85B20033BF32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68EB1151F7C85B20033BF32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68EB12E1F7C85B20033BF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C68EB12F1F7C85B20033BF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68EB1311F7C85B20033BF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "防支付宝输入金额/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuping.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C68EB1321F7C85B20033BF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "防支付宝输入金额/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuping.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C68EB1341F7C85B20033BF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "防支付宝输入金额Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuping.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/防支付宝输入金额.app/防支付宝输入金额";
+			};
+			name = Debug;
+		};
+		C68EB1351F7C85B20033BF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "防支付宝输入金额Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuping.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/防支付宝输入金额.app/防支付宝输入金额";
+			};
+			name = Release;
+		};
+		C68EB1371F7C85B20033BF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "防支付宝输入金额UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuping.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "防支付宝输入金额";
+			};
+			name = Debug;
+		};
+		C68EB1381F7C85B20033BF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "防支付宝输入金额UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuping.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "防支付宝输入金额";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68EB0FE1F7C85B20033BF32 /* Build configuration list for PBXProject "防支付宝输入金额" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68EB12E1F7C85B20033BF32 /* Debug */,
+				C68EB12F1F7C85B20033BF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68EB1301F7C85B20033BF32 /* Build configuration list for PBXNativeTarget "防支付宝输入金额" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68EB1311F7C85B20033BF32 /* Debug */,
+				C68EB1321F7C85B20033BF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C68EB1331F7C85B20033BF32 /* Build configuration list for PBXNativeTarget "防支付宝输入金额Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68EB1341F7C85B20033BF32 /* Debug */,
+				C68EB1351F7C85B20033BF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C68EB1361F7C85B20033BF32 /* Build configuration list for PBXNativeTarget "防支付宝输入金额UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68EB1371F7C85B20033BF32 /* Debug */,
+				C68EB1381F7C85B20033BF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68EB0FB1F7C85B20033BF32 /* Project object */;
+}
